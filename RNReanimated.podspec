@@ -1,6 +1,6 @@
 require "json"
 require_relative './scripts/reanimated_utils'
-
+# TODOReanimated: Remove this line
 reanimated_package_json = JSON.parse(File.read(File.join(__dir__, "package.json")))
 config = find_config()
 assert_no_multiple_instances(config)
